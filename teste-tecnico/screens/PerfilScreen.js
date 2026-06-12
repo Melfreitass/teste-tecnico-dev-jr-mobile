@@ -42,6 +42,18 @@ export default function PerfilScreen() {
           </View>
         </View>
       </View>
+
+      <View style={styles.sobreContainer}>
+        <Text style={styles.sobreTitulo}>Sobre Mim</Text>
+
+        <View style={styles.sobreCard}>
+          <Text style={styles.sobreTexto}>
+            Sou estudante de Desenvolvimento de Sistemas e apaixonada por
+            tecnologia. Tenho experiência no desenvolvimento de aplicações web e
+            mobile utilizando React, React Native e JavaScript.
+          </Text>
+        </View>
+      </View>
     </ScrollView>
   );
 }
@@ -95,27 +107,49 @@ const styles = StyleSheet.create({
     marginTop: 4,
   },
   cardsInfo: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+    flexDirection: "row",
+    justifyContent: "space-between",
     marginHorizontal: 20,
     marginTop: 25,
-},
-infoCard: {
-    backgroundColor: '#17152C',
-    width: '45%',
+  },
+  infoCard: {
+    backgroundColor: "#17152C",
+    width: "45%",
     height: 70,
     borderRadius: 18,
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
     borderWidth: 1,
-    borderColor: '#24213D',
+    borderColor: "#24213D",
+  },
+
+  infoTexto: {
+    color: "#D9D9D9",
+    fontSize: 11,
+    fontWeight: "600",
+    marginTop: 5,
+  },
+  sobreContainer: {
+    marginTop: 30,
+    marginHorizontal: 20,
 },
 
-infoTexto: {
-    color: '#D9D9D9',
-    fontSize: 11,
+sobreTitulo: {
+    color: '#FFFFFF',
+    fontSize: 20,
     fontWeight: '600',
-    marginTop: 5,
+    marginBottom: 15,
 },
-  
+
+sobreCard: {
+    backgroundColor: '#17152C',
+    borderRadius: 25,
+    padding: 22,
+},
+
+sobreTexto: {
+    color: '#BDB7C9',
+    fontSize: 12,
+    lineHeight: 20,
+},
 });
