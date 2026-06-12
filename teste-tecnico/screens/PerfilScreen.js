@@ -43,11 +43,16 @@ export default function PerfilScreen() {
         </View>
       </View>
 
-      <View style={styles.sobreContainer}>
-        <Text style={styles.sobreTitulo}>Sobre Mim</Text>
+      <View style={styles.sobreMim}>
 
-        <View style={styles.sobreCard}>
-          <Text style={styles.sobreTexto}>
+        <View style={styles.tituloContainer}>
+          
+        <Text style={styles.tituloSobre}>Sobre Mim</Text>
+        </View>
+    
+
+        <View style={styles.cardSobre}>
+          <Text style={styles.textoSobre}>
             Sou estudante de Desenvolvimento de Sistemas e apaixonada por
             tecnologia. Tenho experiência no desenvolvimento de aplicações web e
             mobile utilizando React, React Native e JavaScript.
@@ -62,6 +67,7 @@ const styles = StyleSheet.create({
   app: {
     flex: 1,
     backgroundColor: "#100a1f",
+
   },
   header: {
     flexDirection: "row",
@@ -129,25 +135,32 @@ const styles = StyleSheet.create({
     fontWeight: "600",
     marginTop: 5,
   },
-  sobreContainer: {
+  sobreMim: {
     marginTop: 30,
     marginHorizontal: 20,
 },
 
-sobreTitulo: {
+tituloContainer: {
+  flexDirection: 'row',
+  alignItems: 'center',
+  marginBottom: 12,
+},
+
+tituloSobre: {
     color: '#FFFFFF',
     fontSize: 20,
     fontWeight: '600',
     marginBottom: 15,
 },
 
-sobreCard: {
+cardSobre: {
     backgroundColor: '#17152C',
     borderRadius: 25,
     padding: 22,
+    marginBottom:30,
 },
 
-sobreTexto: {
+textoSobre: {
     color: '#BDB7C9',
     fontSize: 12,
     lineHeight: 20,
