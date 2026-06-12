@@ -49,4 +49,4 @@ Aplicativo criado em React Native com Expo para apresentar um perfil profissiona
    npx expo start
    ```
 ## Autor
-Nome do aluno
+Melissa Freitas
