@@ -182,7 +182,3 @@ Após iniciar o Expo, o aplicativo pode ser executado através do:
 **Melissa Freitas**
 
 Estudante de Desenvolvimento de Sistemas - SENAI
-
-GitHub: https://github.com/seu-usuario
-
-LinkedIn: https://linkedin.com/in/seu-linkedin
