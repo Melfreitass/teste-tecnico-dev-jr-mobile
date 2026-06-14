@@ -53,9 +53,12 @@ export default function PerfilScreen() {
 
         <View style={styles.cardSobre}>
           <Text style={styles.textoSobre}>
-            Sou estudante de Desenvolvimento de Sistemas e apaixonada por
-            tecnologia. Tenho experiência no desenvolvimento de aplicações web e
-            mobile utilizando React, React Native e JavaScript.
+            Sou estudante de Desenvolvimento de Sistemas pelo SENAI, com grande interesse em desenvolvimento 
+            web e mobile. Possuo conhecimentos em JavaScript, React, React Native, HTML, CSS, 
+            banco de dados e versionamento com Git e GitHub.
+            Tenho facilidade para aprender novas tecnologias, trabalhar em equipe e buscar soluções para desafios do desenvolvimento. 
+            Estou em constante evolução por meio de projetos acadêmicos e pessoais, sempre buscando aprimorar minhas habilidades técnicas e 
+            me preparar para oportunidades na área de tecnologia.
           </Text>
         </View>
       </View>
@@ -73,7 +76,7 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-between",
     alignItems: "center",
-    marginTop: 30,
+    marginTop: 60,
     marginHorizontal: 20,
   },
   nomeHeader: {
@@ -131,7 +134,7 @@ const styles = StyleSheet.create({
 
   infoTexto: {
     color: "#D9D9D9",
-    fontSize: 11,
+    fontSize: 12,
     fontWeight: "600",
     marginTop: 5,
   },
@@ -162,7 +165,7 @@ cardSobre: {
 
 textoSobre: {
     color: '#BDB7C9',
-    fontSize: 12,
+    fontSize: 14,
     lineHeight: 20,
 },
 });
